@@ -9,6 +9,7 @@ sections:
 - type: document
   path: content/about/info.md
   label: Info Page
+  read_only: false
 - type: directory
   path: content/blog-posts
   label: Blog posts
