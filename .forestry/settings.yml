@@ -9,7 +9,6 @@ sections:
 - type: document
   path: content/about/info.md
   label: Info Page
-  read_only: false
 - type: directory
   path: content/blog-posts
   label: Blog posts
@@ -32,7 +31,7 @@ upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":year:/:month:/:filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
